@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Cabin", sans-serif;
+}
+
+.offer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.offer span:nth-of-type(2) {
+    text-decoration: underline;
+}
+@media screen and (min-width: 768px) {
+	.mobile-break {
+		display: none;
+	}
+}
